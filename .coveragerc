@@ -1,0 +1,25 @@
+[run]
+source=
+    cape_technical_test_wifi_access_point
+    wifi_access_point
+
+[html]
+directory = htmlcov
+
+[report]
+exclude_lines =
+  pragma: no cover
+
+    def __str__
+
+omit=
+    *__init__*
+    */migrations/*
+    *manage*
+    *serializers*
+    *admin*
+    *test*
+    *urls*
+    *settings*
+    *wsgi*
+    *apps*
