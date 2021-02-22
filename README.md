@@ -22,10 +22,9 @@ Please consult Google if you need to install any of the pre-requisites
 - Start the WebServer `python manage.py runserver`
 (*Please note everytime you pull from master you may need to run the migrations and install any new dependencies
 - as per the above instructions*)
-- Note: please find `config.py` file in source folder. 
+- Note: Please find `config.py` file in source folder. 
 - Then update your `GOOGLE_API_KEY = "******************************************"`. 
-- Which can be found here [google developer console documentation](https://developers.google.com
-/maps/documentation/geolocation/get-api-key) or Find it from your development team.
+- Which can be found here [google developer console documentation](https://developers.google.com/maps/documentation/geolocation/get-api-key) or Find it from your development team.
 
 ### Running django pytest
 `py.test -xvv --create-db`.
