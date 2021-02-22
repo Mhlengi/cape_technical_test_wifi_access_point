@@ -58,9 +58,10 @@ Note: [localhost admin application](http://localhost:8000/admin/) requires admin
 - `
 We would like the solution to be a REST API (use any language you want). It needs to accept a single batch of AP scan data of the format:
 `
-![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/InputDataScreenshot.png)
+
+- ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/InputDataScreenshot.png)
 
 - `And it needs to return a response in the format:`
 
-![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
+- ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
 
