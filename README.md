@@ -36,4 +36,3 @@ Note: [localhost admin application](http://localhost:8000/admin/) requires admin
  credentials.
 
 ![localhost home application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/SwaggerScreenshot.png)
-
