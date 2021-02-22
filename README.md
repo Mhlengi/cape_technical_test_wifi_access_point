@@ -65,3 +65,35 @@ We would like the solution to be a REST API (use any language you want). It need
 
 - ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
 
+### Postman Demo REST-APIs client
+- To create a new WIFI access point scan use `POST` http Method.
+- `POST API` endpoint `http://127.0.0.1:8000/api/v1/apscan/add/`
+
+- ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
+
+
+- To list all WIFI access point scan that are already added in DB, use `GET` http Method.
+- `GET API` endpoint `http://127.0.0.1:8000/api/v1/apscan/all/`
+
+- ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
+
+
+- To retrieve a single WIFI access point scan that is already added in DB, use `GET` http Method.
+- DB object pk/id required, For this demo `pk/id=5` 
+- `GET API` endpoint `http://127.0.0.1:8000/api/v1/apscan/5/retrieve/`
+
+- ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
+
+
+- To edit a single WIFI access point scan that is already added in DB, use `PUT` http Method.
+- DB object pk/id required, For this demo `pk/id=5` 
+- `PUT API` endpoint `http://127.0.0.1:8000/api/v1/apscan/5/edit/`
+
+- ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
+
+
+- To delete a single WIFI access point scan that is already added in DB, use `DELETE` http Method.
+- DB object pk/id required, For this demo `pk/id=5` 
+- `DELETE API` endpoint `http://127.0.0.1:8000/api/v1/apscan/5/delete/`
+
+- ![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/OutputDataScreenshot.png)
