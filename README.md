@@ -41,6 +41,5 @@ Please consult Google if you need to install any of the pre-requisites
 Note: [localhost admin application](http://localhost:8000/admin/) requires admin superuser
  credentials.
 
-![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point
-/blob/master/AdminScreenshot.png)
+![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/AdminScreenshot.png)
 
