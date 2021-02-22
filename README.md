@@ -17,6 +17,7 @@ Please consult Google if you need to install any of the pre-requisites
 - Activate a virtual environment: `. venv/bin/activate`
 - Install all the python dependencies `pip install -r requirements.txt`
 - Run the database migrations `python manage.py migrate`
+- In project source folder create `static` and `staticfiles` folders if does not exists 
 - Run collect static files `python manage.py collectstatic`
 - Create Superuser but not required for this tasks `python manage.py createsuperuser` 
 - Start the WebServer `python manage.py runserver`
