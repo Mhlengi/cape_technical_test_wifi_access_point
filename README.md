@@ -22,6 +22,10 @@ Please consult Google if you need to install any of the pre-requisites
 - Start the WebServer `python manage.py runserver`
 (*Please note everytime you pull from master you may need to run the migrations and install any new dependencies
 - as per the above instructions*)
+- Note: please find `config.py` file in source folder. 
+- Then update your `GOOGLE_API_KEY = "******************************************"`. 
+- Which can be found here [google developer console documentation](https://developers.google.com
+/maps/documentation/geolocation/get-api-key) or Find it from your development team.
 
 ### Running django pytest
 `py.test -xvv --create-db`.
@@ -31,8 +35,13 @@ Please consult Google if you need to install any of the pre-requisites
 
 ### Test Localhost Browser Application
 - Access swagger docs [localhost home application](http://localhost:8000/) on your browser.
+
+![localhost home application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/SwaggerScreenshot.png)
+
 - Access django admin [localhost admin application](http://localhost:8000/admin/) on your browser.
 Note: [localhost admin application](http://localhost:8000/admin/) requires admin superuser
  credentials.
 
-![localhost home application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point/blob/master/SwaggerScreenshot.png)
+![localhost admin application](https://github.com/Mhlengi/cape_technical_test_wifi_access_point
+/blob/master/AdminScreenshot.png)
+
